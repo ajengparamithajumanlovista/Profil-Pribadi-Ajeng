@@ -1,1163 +1,297 @@
-
+```html
 <!DOCTYPE html>
 <html lang="id">
-
 <head>
-
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+    <title>Profil Ajeng Paramitha</title>
 
-    <meta
-        name="description"
-        content="Personal profile Ajeng Paramitha Juman Lovista"
-    >
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
 
-    <title>Ajeng Paramitha — Digital Profile</title>
+        header {
+            background-color: #6c5ce7;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
 
-    <link rel="stylesheet" href="style.css">
+        nav {
+            background-color: white;
+            text-align: center;
+            padding: 15px;
+        }
 
+        nav a {
+            margin: 0 12px;
+            color: #6c5ce7;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            width: 80%;
+            max-width: 900px;
+            margin: 30px auto;
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        .profile {
+            text-align: center;
+        }
+
+        .profile img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        h2 {
+            color: #6c5ce7;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #eee9ff;
+        }
+
+        ul, ol {
+            line-height: 1.8;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #6c5ce7;
+            color: white;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
 </head>
-
 
 <body>
 
-
-    <!-- =====================================================
-         BACKGROUND
-         ===================================================== -->
-
-    <div class="space-background">
-
-        <div class="stars"></div>
-
-        <div class="aurora aurora-one"></div>
-
-        <div class="aurora aurora-two"></div>
-
-        <div class="orb orb-one"></div>
-
-        <div class="orb orb-two"></div>
-
-        <div class="orb orb-three"></div>
-
-        <div class="grid-background"></div>
-
-    </div>
-
-
-
-    <!-- =====================================================
-         NAVIGATION
-         ===================================================== -->
-
+    <!-- Header -->
     <header>
-
-        <nav class="navbar">
-
-            <a href="#home" class="brand">
-
-                <span class="brand-symbol">A</span>
-
-                <span class="brand-name">
-                    AJENG<span>.</span>
-                </span>
-
-            </a>
-
-
-            <ul class="nav-links">
-
-                <li>
-                    <a href="#home" class="active">
-                        Home
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#about">
-                        About
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#education">
-                        Education
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#skills">
-                        Skills
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#experience">
-                        Experience
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#contact">
-                        Contact
-                    </a>
-                </li>
-
-            </ul>
-
-        </nav>
-
-
-
-        <!-- =====================================================
-             HERO
-             ===================================================== -->
-
-        <section id="home" class="hero">
-
-            <div class="hero-left">
-
-                <div class="status">
-
-                    <span class="status-dot"></span>
-
-                    AVAILABLE FOR NEW IDEAS
-
-                </div>
-
-
-                <p class="hero-small">
-                    PERSONAL DIGITAL PROFILE
-                </p>
-
-
-                <h1>
-
-                    Hello,
-                    <br>
-
-                    I'm
-
-                    <span class="gradient-text">
-                        Ajeng.
-                    </span>
-
-                </h1>
-
-
-                <div class="typing-line">
-
-                    <span>Mahasiswa Sistem Informasi</span>
-
-                </div>
-
-
-                <p class="hero-description">
-
-                    Saya adalah mahasiswa Sistem Informasi yang
-                    tertarik pada teknologi, pengembangan website,
-                    UI/UX design, pemrograman, dan pengembangan
-                    sistem digital.
-
-                </p>
-
-
-                <div class="hero-actions">
-
-                    <a
-                        href="#about"
-                        class="glow-button primary"
-                    >
-
-                        Explore Profile
-
-                        <span>↗</span>
-
-                    </a>
-
-
-                    <a
-                        href="#contact"
-                        class="glow-button secondary"
-                    >
-
-                        Let's Connect
-
-                    </a>
-
-                </div>
-
-
-                <div class="hero-stats">
-
-                    <div>
-
-                        <strong>SI</strong>
-
-                        <span>Study Field</span>
-
-                    </div>
-
-
-                    <div>
-
-                        <strong>∞</strong>
-
-                        <span>Curiosity</span>
-
-                    </div>
-
-
-                    <div>
-
-                        <strong>24/7</strong>
-
-                        <span>Learning</span>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-
-            <!-- HERO PROFILE -->
-
-            <div class="hero-right">
-
-                <div class="profile-orbit">
-
-                    <div class="orbit orbit-one"></div>
-
-                    <div class="orbit orbit-two"></div>
-
-
-                    <div class="profile-glow">
-
-                        <div class="profile-frame">
-
-                            <img
-                                src="image/foto-ajeng.jpeg"
-                                alt="Foto profil Ajeng Paramitha Juman Lovista"
-                            >
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="floating-card card-top">
-
-                        <span>✦</span>
-
-                        <div>
-
-                            <strong>Creative</strong>
-
-                            <small>Thinker</small>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="floating-card card-bottom">
-
-                        <span>⌘</span>
-
-                        <div>
-
-                            <strong>Tech</strong>
-
-                            <small>Explorer</small>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
+        <h1>Ajeng Paramitha Juman Lovista</h1>
+        <p>Mahasiswa Sistem Informasi</p>
     </header>
 
-
-
-    <!-- =====================================================
-         MAIN
-         ===================================================== -->
-
-    <main>
-
-
-        <!-- =====================================================
-             ABOUT
-             ===================================================== -->
-
-        <section id="about" class="section">
-
-            <div class="section-heading">
-
-                <span>01 / ABOUT</span>
-
-                <h2>
-                    More than
-                    <em>just</em>
-                    a profile.
-                </h2>
-
-            </div>
-
-
-            <div class="about-layout">
-
-
-                <article class="about-main glass-card">
-
-                    <div class="card-number">
-                        01
-                    </div>
-
-                    <h3>
-                        Who am I?
-                    </h3>
-
-
-                    <p>
-
-                        Halo, saya
-                        <strong>
-                            Ajeng Paramitha Juman Lovista
-                        </strong>.
-
-                        Saya merupakan mahasiswa Program Studi
-                        Sistem Informasi di Universitas Dian Nuswantoro.
-
-                    </p>
-
-
-                    <p>
-
-                        Saya memiliki ketertarikan terhadap
-                        pengembangan teknologi digital, khususnya
-                        web development, UI/UX design, pemrograman,
-                        desain grafis, dan pengembangan sistem.
-
-                    </p>
-
-
-                    <p>
-
-                        Bagi saya, teknologi bukan hanya tentang
-                        kode, tetapi juga tentang bagaimana sebuah
-                        solusi dapat memberikan pengalaman yang
-                        bermanfaat bagi pengguna.
-
-                    </p>
-
-
-                    <div class="quote">
-
-                        <span>“</span>
-
-                        Keep learning.
-                        Keep creating.
-                        Keep improving.
-
-                    </div>
-
-                </article>
-
-
-
-                <aside class="about-side">
-
-
-                    <div class="mini-card glass-card">
-
-                        <span class="mini-icon">
-                            🎓
-                        </span>
-
-                        <div>
-
-                            <small>
-                                EDUCATION
-                            </small>
-
-                            <strong>
-                                Sistem Informasi
-                            </strong>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="mini-card glass-card">
-
-                        <span class="mini-icon">
-                            💻
-                        </span>
-
-                        <div>
-
-                            <small>
-                                FOCUS
-                            </small>
-
-                            <strong>
-                                Technology
-                            </strong>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="mini-card glass-card">
-
-                        <span class="mini-icon">
-                            🎨
-                        </span>
-
-                        <div>
-
-                            <small>
-                                CREATIVE
-                            </small>
-
-                            <strong>
-                                UI / UX Design
-                            </strong>
-
-                        </div>
-
-                    </div>
-
-                </aside>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- =====================================================
-             PERSONAL DATA
-             ===================================================== -->
-
-        <section class="section">
-
-            <div class="section-heading">
-
-                <span>02 / INFORMATION</span>
-
-                <h2>
-                    Personal
-                    <em>identity.</em>
-                </h2>
-
-            </div>
-
-
-            <div class="data-card glass-card">
-
-                <table>
-
-                    <thead>
-
-                        <tr>
-
-                            <th>
-                                Information
-                            </th>
-
-                            <th>
-                                Details
-                            </th>
-
-                        </tr>
-
-                    </thead>
-
-
-                    <tbody>
-
-                        <tr>
-
-                            <td>
-                                Nama
-                            </td>
-
-                            <td>
-                                Ajeng Paramitha Juman Lovista
-                            </td>
-
-                        </tr>
-
-
-                        <tr>
-
-                            <td>
-                                NIM
-                            </td>
-
-                            <td>
-                                A12.2025.07314
-                            </td>
-
-                        </tr>
-
-
-                        <tr>
-
-                            <td>
-                                Universitas
-                            </td>
-
-                            <td>
-                                Universitas Dian Nuswantoro
-                            </td>
-
-                        </tr>
-
-
-                        <tr>
-
-                            <td>
-                                Program Studi
-                            </td>
-
-                            <td>
-                                Sistem Informasi
-                            </td>
-
-                        </tr>
-
-
-                        <tr>
-
-                            <td>
-                                Bidang Minat
-                            </td>
-
-                            <td>
-                                Web Development, UI/UX,
-                                Programming & Technology
-                            </td>
-
-                        </tr>
-
-                    </tbody>
-
-                </table>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- =====================================================
-             EDUCATION
-             ===================================================== -->
-
-        <section id="education" class="section">
-
-            <div class="section-heading">
-
-                <span>03 / EDUCATION</span>
-
-                <h2>
-                    Learning
-                    <em>journey.</em>
-                </h2>
-
-            </div>
-
-
-            <div class="timeline">
-
-
-                <article class="timeline-card">
-
-                    <div class="timeline-marker">
-
-                        <span></span>
-
-                    </div>
-
-
-                    <div class="timeline-year">
-                        NOW
-                    </div>
-
-
-                    <div class="timeline-content">
-
-                        <h3>
-                            Universitas Dian Nuswantoro
-                        </h3>
-
-                        <p>
-                            Program Studi Sistem Informasi
-                        </p>
-
-                        <small>
-                            Semarang, Indonesia
-                        </small>
-
-                    </div>
-
-                </article>
-
-
-
-                <article class="timeline-card">
-
-                    <div class="timeline-marker">
-
-                        <span></span>
-
-                    </div>
-
-
-                    <div class="timeline-year">
-                        PREVIOUS
-                    </div>
-
-
-                    <div class="timeline-content">
-
-                        <h3>
-                            SMK Negeri 2 Semarang
-                        </h3>
-
-                        <p>
-                            Pengembangan Perangkat Lunak
-                        </p>
-
-                        <small>
-                            Software Development
-                        </small>
-
-                    </div>
-
-                </article>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- =====================================================
-             SKILLS
-             ===================================================== -->
-
-        <section id="skills" class="section">
-
-            <div class="section-heading">
-
-                <span>04 / SKILLS</span>
-
-                <h2>
-                    Things I
-                    <em>build.</em>
-                </h2>
-
-            </div>
-
-
-            <div class="skills-showcase">
-
-
-                <article class="skill-item">
-
-                    <div class="skill-top">
-
-                        <span>
-                            01
-                        </span>
-
-                        <strong>
-                            HTML & CSS
-                        </strong>
-
-                    </div>
-
-
-                    <div class="skill-line">
-
-                        <span
-                            style="width: 92%"
-                        ></span>
-
-                    </div>
-
-
-                    <p>
-                        Struktur dan tampilan website
-                    </p>
-
-                </article>
-
-
-
-                <article class="skill-item">
-
-                    <div class="skill-top">
-
-                        <span>
-                            02
-                        </span>
-
-                        <strong>
-                            JavaScript
-                        </strong>
-
-                    </div>
-
-
-                    <div class="skill-line">
-
-                        <span
-                            style="width: 78%"
-                        ></span>
-
-                    </div>
-
-
-                    <p>
-                        Interaksi dan fungsi website
-                    </p>
-
-                </article>
-
-
-
-                <article class="skill-item">
-
-                    <div class="skill-top">
-
-                        <span>
-                            03
-                        </span>
-
-                        <strong>
-                            UI / UX Design
-                        </strong>
-
-                    </div>
-
-
-                    <div class="skill-line">
-
-                        <span
-                            style="width: 86%"
-                        ></span>
-
-                    </div>
-
-
-                    <p>
-                        User interface & experience
-                    </p>
-
-                </article>
-
-
-
-                <article class="skill-item">
-
-                    <div class="skill-top">
-
-                        <span>
-                            04
-                        </span>
-
-                        <strong>
-                            Programming
-                        </strong>
-
-                    </div>
-
-
-                    <div class="skill-line">
-
-                        <span
-                            style="width: 82%"
-                        ></span>
-
-                    </div>
-
-
-                    <p>
-                        Java, PHP & programming logic
-                    </p>
-
-                </article>
-
-
-
-                <article class="skill-item">
-
-                    <div class="skill-top">
-
-                        <span>
-                            05
-                        </span>
-
-                        <strong>
-                            Web Development
-                        </strong>
-
-                    </div>
-
-
-                    <div class="skill-line">
-
-                        <span
-                            style="width: 84%"
-                        ></span>
-
-                    </div>
-
-
-                    <p>
-                        Pengembangan sistem berbasis web
-                    </p>
-
-                </article>
-
-
-
-                <article class="skill-item">
-
-                    <div class="skill-top">
-
-                        <span>
-                            06
-                        </span>
-
-                        <strong>
-                            Graphic Design
-                        </strong>
-
-                    </div>
-
-
-                    <div class="skill-line">
-
-                        <span
-                            style="width: 80%"
-                        ></span>
-
-                    </div>
-
-
-                    <p>
-                        Visual communication & design
-                    </p>
-
-                </article>
-
-            </div>
-
-
-            <!-- UNORDERED LIST -->
-
-            <div class="technology-cloud glass-card">
-
-                <span>HTML</span>
-
-                <span>CSS</span>
-
-                <span>JavaScript</span>
-
-                <span>Java</span>
-
-                <span>PHP</span>
-
-                <span>Laravel</span>
-
-                <span>MySQL</span>
-
-                <span>UI/UX</span>
-
-                <span>Git</span>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- =====================================================
-             EXPERIENCE
-             ===================================================== -->
-
-        <section id="experience" class="section">
-
-            <div class="section-heading">
-
-                <span>05 / EXPERIENCE</span>
-
-                <h2>
-                    What I've
-                    <em>explored.</em>
-                </h2>
-
-            </div>
-
-
-            <div class="experience-grid">
-
-
-                <article class="experience-card glass-card">
-
-                    <div class="experience-number">
-                        01
-                    </div>
-
-                    <span class="experience-icon">
-                        ◉
-                    </span>
-
-                    <h3>
-                        Student Organization
-                    </h3>
-
-                    <p>
-
-                        Mengembangkan kemampuan komunikasi,
-                        kerja sama tim, dan organisasi melalui
-                        berbagai kegiatan mahasiswa.
-
-                    </p>
-
-                </article>
-
-
-
-                <article class="experience-card glass-card">
-
-                    <div class="experience-number">
-                        02
-                    </div>
-
-                    <span class="experience-icon">
-                        ◇
-                    </span>
-
-                    <h3>
-                        Event & Committee
-                    </h3>
-
-                    <p>
-
-                        Terlibat dalam kegiatan kepanitiaan
-                        kampus serta membantu kebutuhan
-                        komunikasi dan pelaksanaan acara.
-
-                    </p>
-
-                </article>
-
-
-
-                <article class="experience-card glass-card">
-
-                    <div class="experience-number">
-                        03
-                    </div>
-
-                    <span class="experience-icon">
-                        ◎
-                    </span>
-
-                    <h3>
-                        Digital Content
-                    </h3>
-
-                    <p>
-
-                        Mengembangkan pengalaman dalam
-                        pembuatan konten digital, desain,
-                        dan komunikasi media sosial.
-
-                    </p>
-
-                </article>
-
-            </div>
-
-
-            <!-- ORDERED LIST -->
-
-            <div class="future-box">
-
-                <span>
-                    NEXT CHAPTER
-                </span>
-
-                <h3>
-                    What I want to explore next.
-                </h3>
-
-
-                <ol>
-
-                    <li>
-                        Memperdalam web development.
-                    </li>
-
-                    <li>
-                        Mengembangkan kemampuan UI/UX.
-                    </li>
-
-                    <li>
-                        Mempelajari keamanan teknologi.
-                    </li>
-
-                    <li>
-                        Membangun proyek digital yang bermanfaat.
-                    </li>
-
-                </ol>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- =====================================================
-             CONTACT
-             ===================================================== -->
-
-        <section id="contact" class="section contact-section">
-
-            <div class="contact-glow"></div>
-
-
-            <div class="contact-content">
-
-                <span>
-                    06 / CONTACT
-                </span>
-
-
-                <h2>
-
-                    Let's create
-                    something
-                    <em>meaningful.</em>
-
-                </h2>
-
-
-                <p>
-
-                    Terima kasih telah mengunjungi profil saya.
-                    Jangan ragu untuk terhubung dan berbagi ide.
-
-                </p>
-
-
-                <div class="contact-buttons">
-
-
-                    <a
-                        href="mailto:emailkamu@example.com"
-                        class="contact-button"
-                    >
-
-                        <span>✉</span>
-
-                        Email
-
-                    </a>
-
-
-
-                    <a
-                        href="https://github.com/"
-                        target="_blank"
-                        class="contact-button"
-                    >
-
-                        <span>⌘</span>
-
-                        GitHub
-
-                    </a>
-
-
-
-                    <a
-                        href="https://www.linkedin.com/"
-                        target="_blank"
-                        class="contact-button"
-                    >
-
-                        <span>↗</span>
-
-                        LinkedIn
-
-                    </a>
-
-                </div>
-
-            </div>
-
-        </section>
-
-    </main>
-
-
-
-    <!-- =====================================================
-         FOOTER
-         ===================================================== -->
-
-    <footer>
-
-        <div class="footer-logo">
-
-            A<span>.</span>
-
-        </div>
-
+    <!-- Navigasi -->
+    <nav>
+        <a href="#tentang">Tentang</a>
+        <a href="#data">Data Diri</a>
+        <a href="#pendidikan">Pendidikan</a>
+        <a href="#keahlian">Keahlian</a>
+        <a href="#pengalaman">Pengalaman</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+
+
+    <!-- Profil -->
+    <section class="profile">
+
+        <img
+            src="image/foto-ajeng.jpeg"
+            alt="Foto Ajeng Paramitha"
+        >
+
+        <h2>Halo, Saya Ajeng</h2>
 
         <p>
-
-            Designed & developed by
-            <strong>
-                Ajeng Paramitha Juman Lovista
-            </strong>
-
+            Saya adalah mahasiswa Sistem Informasi di
+            Universitas Dian Nuswantoro yang memiliki
+            ketertarikan pada teknologi, pemrograman,
+            web development, dan UI/UX design.
         </p>
 
+    </section>
 
-        <p class="copyright">
 
+    <!-- Tentang Saya -->
+    <section id="tentang">
+
+        <h2>Tentang Saya</h2>
+
+        <p>
+            Nama saya Ajeng Paramitha Juman Lovista.
+            Saya merupakan mahasiswa Program Studi
+            Sistem Informasi di Universitas Dian Nuswantoro.
+        </p>
+
+        <p>
+            Saya tertarik untuk mempelajari teknologi
+            dan mengembangkan kemampuan dalam bidang
+            pemrograman, desain, serta pengembangan website.
+        </p>
+
+    </section>
+
+
+    <!-- Data Diri -->
+    <section id="data">
+
+        <h2>Data Diri</h2>
+
+        <table>
+
+            <tr>
+                <th>Informasi</th>
+                <th>Keterangan</th>
+            </tr>
+
+            <tr>
+                <td>Nama</td>
+                <td>Ajeng Paramitha Juman Lovista</td>
+            </tr>
+
+            <tr>
+                <td>NIM</td>
+                <td>A12.2025.07314</td>
+            </tr>
+
+            <tr>
+                <td>Universitas</td>
+                <td>Universitas Dian Nuswantoro</td>
+            </tr>
+
+            <tr>
+                <td>Program Studi</td>
+                <td>Sistem Informasi</td>
+            </tr>
+
+            <tr>
+                <td>Bidang Minat</td>
+                <td>Web Development, UI/UX dan Programming</td>
+            </tr>
+
+        </table>
+
+    </section>
+
+
+    <!-- Pendidikan -->
+    <section id="pendidikan">
+
+        <h2>Pendidikan</h2>
+
+        <ul>
+            <li>
+                <strong>Universitas Dian Nuswantoro</strong><br>
+                Program Studi Sistem Informasi
+            </li>
+
+            <li>
+                <strong>SMK Negeri 2 Semarang</strong><br>
+                Pengembangan Perangkat Lunak
+            </li>
+        </ul>
+
+    </section>
+
+
+    <!-- Keahlian -->
+    <section id="keahlian">
+
+        <h2>Keahlian</h2>
+
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>PHP</li>
+            <li>Web Development</li>
+            <li>UI/UX Design</li>
+            <li>Graphic Design</li>
+        </ul>
+
+    </section>
+
+
+    <!-- Pengalaman -->
+    <section id="pengalaman">
+
+        <h2>Pengalaman</h2>
+
+        <ol>
+            <li>
+                Mengikuti kegiatan organisasi mahasiswa.
+            </li>
+
+            <li>
+                Terlibat dalam kegiatan kepanitiaan kampus.
+            </li>
+
+            <li>
+                Membuat konten digital dan desain.
+            </li>
+        </ol>
+
+    </section>
+
+
+    <!-- Kontak -->
+    <section id="kontak">
+
+        <h2>Kontak</h2>
+
+        <p>
+            Email:
+            <a href="mailto:paramithaajeng7@gmail.com">
+                paramithaajeng7@gmail.com
+            </a>
+        </p>
+
+        <p>
+            GitHub:
+            <a
+                href="https://github.com/ajengparamithajumanlovista"
+                target="_blank"
+            >
+                ajengparamithajumanlovista
+            </a>
+        </p>
+
+        <p>
+            LinkedIn:
+            <a
+                href="https://www.linkedin.com/in/ajeng-paramitha-juman-lovista-319a75332/"
+                target="_blank"
+            >
+                Ajeng Paramitha
+            </a>
+        </p>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>
             &copy; 2026 Ajeng Paramitha Juman Lovista
-
         </p>
-
     </footer>
 
-
 </body>
-
 </html>
-```
